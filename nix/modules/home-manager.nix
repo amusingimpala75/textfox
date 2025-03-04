@@ -11,7 +11,7 @@ let
 in {
 
   imports = [
-    inputs.nur.hmModules.nur
+    inputs.nur.modules.homeManager.default
 
     ./options.nix
   ];
